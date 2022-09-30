@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+    <line>
+      <![CDATA[9  row       4  coloumn]]>
+    </line>
+    <line>
+      <![CDATA[Csrf token validation faileddashboard http://orangehrm.qedgetech.com/symfony/web/index.php/auth/validateCredentials]]>
+    </line>
+    <line>
+      <![CDATA[Csrf token validation faileddashboard http://orangehrm.qedgetech.com/symfony/web/index.php/auth/validateCredentials]]>
+    </line>
+    <line>
+      <![CDATA[Csrf token validation faileddashboard http://orangehrm.qedgetech.com/symfony/web/index.php/auth/validateCredentials]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="55785" started-at="2022-09-18T16:25:32Z" finished-at="2022-09-18T16:26:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="55785" started-at="2022-09-18T16:25:32Z" finished-at="2022-09-18T16:26:27Z">
+      <class name="driverFactory.DriverScript">
+        <test-method status="PASS" signature="setup()[pri:0, instance:driverFactory.DriverScript@27efef64]" name="setup" is-config="true" duration-ms="5126" started-at="2022-09-18T21:55:32Z" finished-at="2022-09-18T21:55:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="startTest()[pri:0, instance:driverFactory.DriverScript@27efef64]" name="startTest" duration-ms="47345" started-at="2022-09-18T21:55:37Z" finished-at="2022-09-18T21:56:24Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at utilities.ExcelFileUtils.getCellData(ExcelFileUtils.java:36)
+	at driverFactory.DriverScript.startTest(DriverScript.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+            <line>
+              <![CDATA[9  row       4  coloumn]]>
+            </line>
+            <line>
+              <![CDATA[Csrf token validation faileddashboard http://orangehrm.qedgetech.com/symfony/web/index.php/auth/validateCredentials]]>
+            </line>
+            <line>
+              <![CDATA[Csrf token validation faileddashboard http://orangehrm.qedgetech.com/symfony/web/index.php/auth/validateCredentials]]>
+            </line>
+            <line>
+              <![CDATA[Csrf token validation faileddashboard http://orangehrm.qedgetech.com/symfony/web/index.php/auth/validateCredentials]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:driverFactory.DriverScript@27efef64]" name="teardown" is-config="true" duration-ms="3171" started-at="2022-09-18T21:56:24Z" finished-at="2022-09-18T21:56:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- driverFactory.DriverScript -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
